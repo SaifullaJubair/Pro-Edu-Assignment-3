@@ -1,0 +1,28 @@
+body{
+      margin: 0;
+}
+
+.slider-heading{
+      font-size: 6vw;
+}
+.h-details{
+      font-size: 2vw;
+}
+.h-btn{
+      font-size: 3vw;
+}
+@media only screen and (max-width: 767px){
+      .h-details{
+            font-size: 10px;
+      }
+      .slider-heading{
+            font-size: 25px;
+      }
+      .h-btn{
+            font-size:12px
+      }
+     
+}
+.carousel-item{
+      background-color: black;
+}
