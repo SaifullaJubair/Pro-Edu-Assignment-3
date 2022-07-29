@@ -27,8 +27,11 @@ body{
       background-color: black;
 }
 
-/* main section  */
+
 @media screen and (max-width:576px){
+
+      /* main section  */
+
       .m-div{
             display: flex;
             flex-direction: column;
@@ -36,4 +39,14 @@ body{
       .col-articel p{
             font-size: 15px;
       }
+
+      /* Explore innstitute blog */
+      #workimg{
+            width: 90%;
+      }
+      .working-row{
+            display: flex;
+            flex-direction: column;
+      }
+
 }
