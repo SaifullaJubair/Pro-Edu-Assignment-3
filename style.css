@@ -27,3 +27,13 @@ body{
       background-color: black;
 }
 
+/* main section  */
+@media screen and (max-width:576px){
+      .m-div{
+            display: flex;
+            flex-direction: column;
+      }
+      .col-articel p{
+            font-size: 15px;
+      }
+}
